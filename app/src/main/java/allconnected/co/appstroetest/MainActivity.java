@@ -31,8 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 lastTime = System.currentTimeMillis();
-                String packageName = "free.vpn";
-//                String packageName = "free.vpn.unblock.proxy.vpnpro";
+                String packageName = "free.vpn.unblock.proxy.vpnpro";
                 try {
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + packageName));
                     intent.setPackage("com.android.vending1");
